@@ -1,0 +1,20 @@
+array = [1, 3, 5, 6]
+
+def insert(value):
+    array.insert(value)
+
+def delete(value):
+    array.remove(value)
+
+def search(value):
+    if value in array:
+        return array.index(value)
+    return -1
+
+print(array)
+insert(8)
+print(array)
+delete(3)
+print(array)
+
+
